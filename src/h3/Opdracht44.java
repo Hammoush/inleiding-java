@@ -2,43 +2,25 @@ package h3;
 
 import java.applet.Applet;
 import java.awt.*;
-import java.time.chrono.JapaneseEra;
 
 public class Opdracht44 extends Applet {
-    int valerei;
-    int jerroen;
-    int Hans;
+    public void init(){}
+    public void paint (Graphics g){
+        g.setColor(Color.red);
+        g.drawString("hassan = 40kg",30,30);
+        g.fillRect(130, 20, 40,10);
 
+        g.setColor(Color.green);
+        g.drawString("Ahmad = 100kg",30, 60);
+        g.fillRect(130,50,100,10);
 
-    public void init() {
-        valerei = 40;
-        jerroen = 100;
-        Hans =80;
-    }
-
-public void paint(Graphics g){
-    g.setColor(Color.red);
-    g.drawString("valerie", 5, 115);
-   g.fillRect(110, 90,valerei, 30);
-    g.setColor(Color.blue);
-   g.drawString("Jerroen", 5, 150);
-   g.fillRect(110, 130, jerroen, 30 );
-    g.setColor(Color.black);
-   g.drawString("Hans",5, 180);
-   g.fillRect(110, 170,Hans, 30);
-
-
-}
-
-    }
+        g.setColor(Color.blue);
+        g.drawString("Amna = 80kg",30, 90);
+        g.fillRect(130,80,70,10);
 
 
 
 
 
 
-
-
-
-
-
+    }}
