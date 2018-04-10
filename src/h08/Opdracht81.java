@@ -35,14 +35,14 @@ public class Opdracht81 extends Applet {
 
      class KnopListener implements ActionListener{
         public void actionPerformed(ActionEvent e){
-            hola = new String();
+          ;  hola = new String();
             hola = tekstvak.getText();
             repaint();
         }
      }
 
      class Reset implements ActionListener{
-        public void actionPerformed(ActionEvent e){
+         public void actionPerformed(ActionEvent e){
             tekstvak.setText("");
             repaint();
         }
